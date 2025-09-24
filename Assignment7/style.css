@@ -1,0 +1,46 @@
+.main{
+    height: 400px;
+    position: relative;
+    
+}
+
+.hero-section{
+    background-image: url(https://t2.tudocdn.net/520690?w=1200&h=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 200px 0;
+}
+
+
+.hero-section>img{
+    width: 200px;
+    position: absolute;
+    right: 280px;
+    /* z-index: -2; */
+}
+
+div.para{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+div.para h1,p{
+    color: white;
+    text-align: justify;
+    
+}
+
+.para> button{
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 20px 0px;
+}
+
+.para> button:hover{
+   background-color: rgb(240, 13, 127);
+
+}
