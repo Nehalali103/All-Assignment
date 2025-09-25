@@ -15,10 +15,12 @@
 
 
 .hero-section>img{
-    width: 200px;
+    width: 260px;
+    height: 550px;
     position: absolute;
-    right: 280px;
-    /* z-index: -2; */
+    right: 230px;
+    top: -90px;
+    
 }
 
 div.para{
@@ -28,6 +30,7 @@ div.para{
 }
 
 div.para h1,p{
+    /* margin-top: ; */
     color: white;
     text-align: justify;
     
